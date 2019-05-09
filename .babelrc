@@ -1,0 +1,29 @@
+{
+    "presets": [
+        "@babel/preset-react",
+        [
+          "@babel/preset-env",
+          {
+            "modules": false,
+            "targets": {
+              "browsers": [
+                ">0.25%",
+                "not ie 10",
+                "not op_mini all",
+                "not dead"
+              ]
+            }
+          }
+        ]
+      ],
+      "plugins": [
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        "react-hot-loader/babel",
+        "@babel/plugin-proposal-object-rest-spread",
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-proposal-export-namespace-from",
+        "@babel/plugin-transform-runtime",
+        "babel-plugin-styled-components"
+      ]
+}
