@@ -6,7 +6,7 @@ For development you will need to:
 
 #### Run
 ```
-cd React-Mobx-AntD
+cd React-redux-AntD
 npm install
 npm start
 ```
@@ -17,4 +17,4 @@ npm start
 3. [ES6](http://es6-features.org/#StatementBodies),[ES7](https://node.university/blog/498412/es7-es8) Supported javascript syntax
 4. [Styled Components](https://www.styled-components.com/) Component based styling library
 5. [Ant Design](https://ant.design/docs/react/introduce) React component library
-6. [Mobx](https://mobx.js.org/) Simple state management library 
+6. [Redux](https://redux.js.org/introduction/getting-started) Simple state management library 
